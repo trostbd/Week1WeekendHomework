@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Week1WeekendHomework</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_zero">0</string>
+    <string name="button_add">+</string>
+    <string name="button_subtract">-</string>
+    <string name="button_multiply">*</string>
+    <string name="button_divide">/</string>
+    <string name="button_equals">=</string>
+    <string name="button_clearEntry">CE</string>
+    <string name="button_clear">C</string>
+    <string name="button_backspace">Back</string>
+    <string name="button_posNeg">+ -</string>
+    <string name="button_decimal">.</string>
+    <string name="button_e">e</string>
+    <string name="button_eX">e^x</string>
+    <string name="button_factorial">x!</string>
+    <string name="button_sin">sin</string>
+    <string name="button_cos">cos</string>
+    <string name="button_tan">tan</string>
+    <string name="button_ln">ln</string>
+    <string name="button_log">log</string>
+    <string name="button_xtoy">x^y</string>
+    <string name="button_pi">π</string>
+    <string name="button_nroot">y√x</string>
+    <string name="button_sqrt">√x</string>
+    <string name="button_memadd">M+</string>
+    <string name="button_recall">MR</string>
+    <string name="button_memclr">MC</string>
+</resources>

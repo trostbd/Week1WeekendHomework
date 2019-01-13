@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="4"
+    android:rowCount="6"
+    >
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="Text View"
+        />
+
+    <Button
+        android:id="@+id/btCE"
+        android:text="@string/button_clearEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btClear"
+        android:text="@string/button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btBackspace"
+        android:text="@string/button_backspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btDivide"
+        android:text="@string/button_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btSeven"
+        android:text="@string/button_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btEight"
+        android:text="@string/button_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btNine"
+        android:text="@string/button_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btMultiply"
+        android:text="@string/button_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btFour"
+        android:text="@string/button_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btFive"
+        android:text="@string/button_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btSix"
+        android:text="@string/button_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btSubtract"
+        android:text="@string/button_subtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btOne"
+        android:text="@string/button_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+       />
+
+    <Button
+        android:id="@+id/btTwo"
+        android:text="@string/button_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btThree"
+        android:text="@string/button_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btAdd"
+        android:text="@string/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btPositiveNegative"
+        android:text="@string/button_posNeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btZero"
+        android:text="@string/button_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btDecimal"
+        android:text="@string/button_decimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btEquals"
+        android:text="@string/button_equals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+</GridLayout>
